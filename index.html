@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechPulse - Modern tech blog with latest insights on AI, coding and future technology">
+    <meta name="keywords" content="tech blog, programming, AI, web development, tutorials">
+    <meta name="author" content="TechPulse">
+    <meta property="og:title" content="TechPulse - Modern Tech Blog">
+    <meta property="og:description" content="Latest insights on AI, coding and future tech">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techpulse.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200">
+    
+    <title>TechPulse - Modern Tech Blog</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Tech<span>Pulse</span></a>
+            
+            <button class="mobile-menu-btn" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Top Banner Ad -->
+        <div class="ad-banner">
+            <span>Advertisement Space</span>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&auto=format'); background-size: cover; background-position: center;">
+            <div class="hero-content">
+                <h1>Welcome to <span class="accent">TechPulse</span></h1>
+                <p>Your daily dose of tech insights, tutorials, and industry news</p>
+                <a href="blog.html" class="btn btn-primary">Start Reading</a>
+            </div>
+        </section>
+
+        <!-- Featured Posts with Sidebar -->
+        <div class="container">
+            <section class="featured-posts">
+                <h2 class="section-title">Featured Posts</h2>
+                
+                <div class="posts-grid">
+                    <!-- Post Card 1: AI -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=80" 
+                             alt="Artificial Intelligence" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">AI</span>
+                            <h3><a href="post.html">The Future of Artificial Intelligence in 2025</a></h3>
+                            <p class="post-excerpt">Exploring how AI is transforming industries and what to expect in the coming years...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 15, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 2: Web Development -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&auto=format&fit=crop&q=80" 
+                             alt="Web Development" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Development</span>
+                            <h3><a href="post.html">Modern Web Development Trends You Need to Know</a></h3>
+                            <p class="post-excerpt">From serverless to edge computing, discover the trends shaping web development...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 12, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 3: Cybersecurity -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&auto=format&fit=crop&q=80" 
+                             alt="Cybersecurity" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Security</span>
+                            <h3><a href="post.html">Cybersecurity Best Practices for 2025</a></h3>
+                            <p class="post-excerpt">Stay safe online with these essential security tips and practices...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 10, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 4: Cloud Computing -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80" 
+                             alt="Cloud Computing" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Cloud</span>
+                            <h3><a href="post.html">Cloud Computing: Multi-Cloud Strategies</a></h3>
+                            <p class="post-excerpt">Why companies are adopting multi-cloud approaches and how to implement them...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 8, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 5: Machine Learning -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&auto=format&fit=crop&q=80" 
+                             alt="Machine Learning" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">AI</span>
+                            <h3><a href="post.html">Machine Learning for Beginners</a></h3>
+                            <p class="post-excerpt">Start your ML journey with these fundamentals and practical examples...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 5, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 6: React -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&auto=format&fit=crop&q=80" 
+                             alt="React Programming" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Development</span>
+                            <h3><a href="post.html">React 19: What's New and Exciting</a></h3>
+                            <p class="post-excerpt">Explore the latest features in React 19 including server components...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 3, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 7: Encryption -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80" 
+                             alt="Encryption" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Security</span>
+                            <h3><a href="post.html">End-to-End Encryption Explained</a></h3>
+                            <p class="post-excerpt">How encryption protects your data and why it matters for privacy...</p>
+                            <div class="post-meta">
+                                <span class="post-date">May 1, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 8: AWS -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&auto=format&fit=crop&q=80" 
+                             alt="AWS Cloud" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Cloud</span>
+                            <h3><a href="post.html">AWS vs Azure vs Google Cloud: 2025 Comparison</a></h3>
+                            <p class="post-excerpt">Comparing the top cloud providers to help you choose the right one...</p>
+                            <div class="post-meta">
+                                <span class="post-date">Apr 28, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 9: Python -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&auto=format&fit=crop&q=80" 
+                             alt="Python Programming" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">Development</span>
+                            <h3><a href="post.html">Python 3.12: Must-Know Features</a></h3>
+                            <p class="post-excerpt">New features in the latest Python release that will boost productivity...</p>
+                            <div class="post-meta">
+                                <span class="post-date">Apr 25, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post Card 10: GPT-5 -->
+                    <article class="post-card">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&auto=format&fit=crop&q=80" 
+                             alt="GPT-5 AI" 
+                             loading="lazy">
+                        <div class="post-content">
+                            <span class="post-category">AI</span>
+                            <h3><a href="post.html">GPT-5: What to Expect from Next-Gen AI</a></h3>
+                            <p class="post-excerpt">Rumors and predictions about the next generation of language models...</p>
+                            <div class="post-meta">
+                                <span class="post-date">Apr 22, 2025</span>
+                                <a href="post.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Between Posts Ad -->
+                <div class="ad-inline">
+                    <span>Advertisement Space</span>
+                </div>
+            </section>
+
+            <!-- Sidebar with Ad -->
+            <aside class="sidebar">
+                <div class="sidebar-ad">
+                    <span>Sidebar Ad Space</span>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Artificial Intelligence</a> (12)</li>
+                        <li><a href="#">Web Development</a> (8)</li>
+                        <li><a href="#">Cybersecurity</a> (6)</li>
+                        <li><a href="#">Cloud Computing</a> (5)</li>
+                        <li><a href="#">DevOps</a> (7)</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="GitHub">⌨️</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>TechPulse</h4>
+                <p>Modern tech blog delivering insights and tutorials since 2025.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechPulse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

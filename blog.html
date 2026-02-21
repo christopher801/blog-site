@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechPulse Blog - Latest articles on technology, programming and digital trends">
+    <title>TechPulse - All Posts</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Tech<span>Pulse</span></a>
+            <button class="mobile-menu-btn" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="ad-banner">
+            <span>Advertisement Space</span>
+        </div>
+
+        <div class="container">
+            <h1 class="page-title">All Articles</h1>
+            
+            <!-- Search and Filter -->
+            <div class="blog-tools">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search articles...">
+                
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="AI">AI</button>
+                    <button class="filter-btn" data-category="Development">Development</button>
+                    <button class="filter-btn" data-category="Security">Security</button>
+                    <button class="filter-btn" data-category="Cloud">Cloud</button>
+                </div>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="posts-grid" id="blogPosts">
+                <!-- Posts will be filtered via JS -->
+                <article class="post-card" data-category="AI">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=80" alt="AI" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">AI</span>
+                        <h3><a href="post.html">The Future of Artificial Intelligence in 2025</a></h3>
+                        <p class="post-excerpt">Exploring how AI is transforming industries...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 15, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Development">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&auto=format&fit=crop&q=80" alt="Web Dev" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Development</span>
+                        <h3><a href="post.html">Modern Web Development Trends</a></h3>
+                        <p class="post-excerpt">From serverless to edge computing...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 12, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Security">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&auto=format&fit=crop&q=80" alt="Security" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Security</span>
+                        <h3><a href="post.html">Cybersecurity Best Practices for 2025</a></h3>
+                        <p class="post-excerpt">Stay safe online with these essential tips...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 10, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Cloud">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=80" alt="Cloud" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Cloud</span>
+                        <h3><a href="post.html">Cloud Computing: Multi-Cloud Strategies</a></h3>
+                        <p class="post-excerpt">Why companies adopt multi-cloud approaches...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 8, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="AI">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&auto=format&fit=crop&q=80" alt="Machine Learning" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">AI</span>
+                        <h3><a href="post.html">Machine Learning for Beginners</a></h3>
+                        <p class="post-excerpt">Start your ML journey with these fundamentals...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 5, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Development">
+                    <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=600&auto=format&fit=crop&q=80" alt="React" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Development</span>
+                        <h3><a href="post.html">React 19: What's New?</a></h3>
+                        <p class="post-excerpt">Explore the latest features in React 19...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 3, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Security">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=80" alt="Encryption" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Security</span>
+                        <h3><a href="post.html">End-to-End Encryption Explained</a></h3>
+                        <p class="post-excerpt">How encryption protects your data...</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 1, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Cloud">
+                    <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&auto=format&fit=crop&q=80" alt="AWS" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Cloud</span>
+                        <h3><a href="post.html">AWS vs Azure vs Google Cloud</a></h3>
+                        <p class="post-excerpt">Comparing the top cloud providers...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Apr 28, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="Development">
+                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&auto=format&fit=crop&q=80" alt="Python" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">Development</span>
+                        <h3><a href="post.html">Python 3.12: Must-Know Features</a></h3>
+                        <p class="post-excerpt">New features in the latest Python release...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Apr 25, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="AI">
+                    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&auto=format&fit=crop&q=80" alt="GPT-5" loading="lazy">
+                    <div class="post-content">
+                        <span class="post-category">AI</span>
+                        <h3><a href="post.html">GPT-5: What to Expect</a></h3>
+                        <p class="post-excerpt">Rumors and predictions about the next GPT...</p>
+                        <div class="post-meta">
+                            <span class="post-date">Apr 22, 2025</span>
+                            <a href="post.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Ad Block Between Posts -->
+            <div class="ad-inline">
+                <span>Advertisement Space</span>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">4</button>
+                <button class="page-btn">5</button>
+                <span class="page-dots">...</span>
+                <button class="page-btn">10</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>TechPulse</h4>
+                <p>Modern tech blog delivering insights and tutorials since 2025.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechPulse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>

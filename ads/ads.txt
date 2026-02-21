@@ -1,0 +1,14 @@
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Ezoic (si w itilize)
+ezoic.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Media.net
+media.net, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Autres réseaux publicitaires
+# amazon.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+---
+ENPÒTAN: Ranplase "pub-0000000000000000" ak ID Adsense ou vre a
